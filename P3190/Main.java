@@ -1,9 +1,11 @@
+package P3190;
+
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Scanner;
 
-public class P3190 {
+public class Main {
     public static void main(String[] args) {
         // 데이터 입력 받기
         Scanner scanner = new Scanner(System.in);

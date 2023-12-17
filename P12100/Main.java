@@ -1,6 +1,8 @@
+package P12100;
+
 import java.util.Scanner;
 
-public class P12100 {
+public class Main {
     public static void main(String[] args) {
         // 데이터 입력 받기
         Scanner scanner = new Scanner(System.in);
@@ -16,7 +18,6 @@ public class P12100 {
 
         moveRight(board);
 
-        printBoard(board);
     }
 
     public static void moveUp(int[][] board) {
